@@ -30,4 +30,9 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
   }
+    {
+      "scripts": {
+        "build": "chmod +x node_modules/.bin/vite && vite build"
+      }
+    }
 }
